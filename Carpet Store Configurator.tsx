@@ -7,7 +7,7 @@ const CarpetStore = () => {
   const [color, setColor] = useState('red'); // Цвет ковра
 
   // Базовая стоимость за единицу площади
-  const costPerSquareMeter = 100; // Стоимость за 1 м²
+  const costPerSquareMeter = 1000; // Стоимость за 1 м²
 
   // Рассчитываем стоимость ковра
   const calculatePrice = () => width * height * costPerSquareMeter;
